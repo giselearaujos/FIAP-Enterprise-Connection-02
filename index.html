@@ -27,6 +27,7 @@
     data-target="#navbar"
     data-offset="72"
     class="position-relative"
+    onload="loadMap()"
   >
     <header class="fixed-top page-header">
       <div class="container-fluid container-fluid-max">
@@ -58,17 +59,17 @@
                 <a class="nav-link" href="#popular-destinations">Destinos</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#request-quote">Entretenimento</a>
+                <a class="nav-link" href="#request-quote">Fale conosco</a>
               </li>
             </ul>
             <div class="text-white">
-              <a href="tel:1234567890" class="mr-2">
+              <a href="" class="mr-2">
                 <i class="fas fa-phone"></i>
                 <div class="d-none d-xl-inline">1234567890</div>
               </a>
-              <a href="mailto:info@honeydreams.com">
+              <a href="">
                 <i class="fas fa-envelope"></i>
-                <div class="d-none d-xl-inline">vaicomgulliver.com</div>
+                <div class="d-none d-xl-inline">vaicomgulliver@gmail.com</div>
               </a>
             </div>
           </div>
@@ -152,11 +153,7 @@
               </p>
             </div>
             <div class="col-12 pt-3">
-              <a
-                class="btn bg-red text-white"
-                target="_blank"
-                href=""
-                role="button"
+              <a class="btn bg-red text-white" href="" role="button"
                 >Learn More →</a
               >
             </div>
@@ -187,11 +184,7 @@
                 Então se não curtir o “friozinho”, faça como muitos brasileiros
                 e viaje nos meses próximos a junho e setembro!
               </p>
-              <a
-                class="btn bg-red text-white"
-                target="_blank"
-                href=""
-                role="button"
+              <a class="btn bg-red text-white" href="" role="button"
                 >Leia mais →</a
               >
             </div>
@@ -229,11 +222,7 @@
                 tribos urbanas de Xangai, Pequim e Hong Kong, o encontro das
                 culturas de raiz e de vanguarda na China impressiona.
               </p>
-              <a
-                class="btn bg-red text-white"
-                target="_blank"
-                href="#"
-                role="button"
+              <a class="btn bg-red text-white" href="#" role="button"
                 >Leia mais →</a
               >
             </div>
@@ -360,6 +349,10 @@
               </a>
             </div>
           </div>
+          <div
+            class="col-12 col-md-auto d-flex justify-content-center align-items-center mt-5"
+            id="map"
+          ></div>
         </div>
       </section>
     </main>
@@ -407,5 +400,6 @@
       crossorigin="anonymous"
     ></script>
     <script src="./js/scroll.js"></script>
+    <script src="./js/map.js"></script>
   </body>
 </html>
