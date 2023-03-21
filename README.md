@@ -45,7 +45,7 @@ Você pode visualizar a aplicação do projeto através [DESSE LINK](https://fia
 
 ## 📈 Novas Features
 
-- [x] Atualizacão e implementação novo layout.
+- [x] Atualização e implementação novo layout.
 - [x] Implementado responsividade.
 - [x] Adicionado requisição ao MapQuest onde mostra a localização do usuário em uma mapa estático.
 - [ ] Adicionado dark mode.
