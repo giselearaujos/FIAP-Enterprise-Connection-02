@@ -25,5 +25,6 @@ function callMapQuest(latitude, longitude) {
   image.src = url;
 
   document.getElementById("map").appendChild(image);
-  image.style.minWidth = "-webkit-fill-available";
+  image.style.height = "auto";
+  image.style.width = "100%";
 }
