@@ -45,11 +45,11 @@ Você pode visualizar a aplicação do projeto através [DESSE LINK](https://fia
 
 ## 📈 Novas Features
 
-- [y] Atualizacão e implementação novo layout.
-- [y] Implementado responsividade.
-- [y] Adicionado requisição ao MapQuest onde mostra a localização do usuário em uma mapa estático.
-- [x] Adicionado dark mode.
-- [x] Adicionado VLibras.
+- [x] Atualizacão e implementação novo layout.
+- [x] Implementado responsividade.
+- [x] Adicionado requisição ao MapQuest onde mostra a localização do usuário em uma mapa estático.
+- [ ] Adicionado dark mode.
+- [ ] Adicionado VLibras.
 
 ## :memo: Licença
 
