@@ -1,13 +1,14 @@
-<h1 align="center">FIAP Enterprise Connection 02</h1>
+<h1 align="center">FIAP - Blog Gulliver</h1>
 
 <p align="center">
-Projeto desenvolvido a partir do protótipo do Figma.
+Projeto desenvolvido a partir dos módulos estudados do curso Sistema para Internet
 </p>
 
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Aplicação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-features">Novas Features</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-licença">Licença</a>
 </p>
 
@@ -28,6 +29,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - HTML 5
 - CSS 3
 - [Bootstrap](https://getbootstrap.com/)
+- [MapQuest](https://developer.mapquest.com/)
 
 ## 💻 Projeto
 
@@ -40,6 +42,14 @@ carros e “como chegar”.
 ## 🔖 Aplicação
 
 Você pode visualizar a aplicação do projeto através [DESSE LINK](https://fiap-enterprise-connection-02.vercel.app/)
+
+## 📈 Novas Features
+
+- [y] Atualizacão e implementação novo layout.
+- [y] Implementado responsividade.
+- [y] Adicionado requisição ao MapQuest onde mostra a localização do usuário em uma mapa estático.
+- [x] Adicionado dark mode.
+- [x] Adicionado VLibras.
 
 ## :memo: Licença
 
